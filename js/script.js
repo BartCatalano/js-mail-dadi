@@ -8,12 +8,15 @@ let currentMail = 0;
 for (let i = 0; i < mailArray.length; i++) {
     const currentMail = mailArray[i];
     if (mailUser === currentMail) {
-    
-        alert("mail inserita verificata")
+        console.log("mail inserica verificata!")
+    break;
+        
     }
     else{
-         alert("La mail inserita non è verificata!")
-        console.log("False");
+        console.log("mail inserita non verificata");
+        
     }
 
 }
+
+
