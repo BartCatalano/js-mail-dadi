@@ -5,15 +5,16 @@ const mailUser = prompt ("Inserisci la tua Mail");
 
 //controllo mail verificata
 let currentMail = 0;
-let currentcontrol = 0;
+const currentcontrol = 0;
 for (let i = 0; i < mailArray.length; i++) {
     const currentMail = mailArray[i];
-    if (mailUser === currentMail) {
-        let currentcontrol = true;
-    
-        
+    if (mailUser == currentMail) {   
+        console.log(Boolean);
     }
-    console.log(currentcontrol);
+    else{
+             console.log(Boolean);
+    }
+    
 }
 
 
