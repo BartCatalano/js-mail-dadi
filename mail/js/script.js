@@ -10,12 +10,9 @@ for (let i = 0; i < mailArray.length; i++) {
     const currentMail = mailArray[i];
     if (mailUser === currentMail) {   
         currentcontrol=true;
-        console.log(currentcontrol);
+        
     }
-    else{
-        console.log(currentcontrol);
-    }
-    
 }
+console.log(currentcontrol);
 
 
