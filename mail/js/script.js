@@ -4,15 +4,20 @@ const mailArray = ["giorgio@hotmail.com", "giovanni@gmail.com", "franco@mail.it"
 const mailUser = prompt ("Inserisci la tua Mail"); 
 
 //controllo mail verificata
-let currentMail = 0;
 let currentcontrol = false;
 for (let i = 0; i < mailArray.length; i++) {
     const currentMail = mailArray[i];
     if (mailUser === currentMail) {   
         currentcontrol=true;
+        break;
         
     }
 }
 console.log(currentcontrol);
 
+if (currentcontrol) {
+    console.log("Mail Verificata");
+} else{
+    console.log("Mail NON Verificata");
+}
 
